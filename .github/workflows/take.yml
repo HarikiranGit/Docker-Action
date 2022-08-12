@@ -1,6 +1,7 @@
-name: Assign issue to contributor
+name: Assign issue
 on: 
   issue_comment:
+    types : [created, edited]
 
 jobs:
   assign:
