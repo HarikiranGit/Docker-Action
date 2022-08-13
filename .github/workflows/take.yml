@@ -1,7 +1,5 @@
 name: Assign issue
-on: 
-  issue_comment:
-    types : [created, edited]
+on: push
 
 jobs:
   assign:
